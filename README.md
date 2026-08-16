@@ -95,6 +95,12 @@ Before running the project locally, make sure the following are installed:
 - Node.js, version 18 or higher
 - npm, which is included with Node.js
 
+You can verify your installations with:
+
+node --version
+npm --version
+git --version
+
 ### Installation
 
 Clone the repository and install dependencies:
@@ -112,6 +118,12 @@ npm run dev
 ```
 
 By default, the application will be available at `http://localhost:5173`.
+
+### Live Demo
+
+The current deployed version of SIGNPROJECT is available at:
+
+https://sign-project-flame.vercel.app/
 
 ## Available Scripts
 
