@@ -6,6 +6,8 @@ import { LiveTranslation } from "./pages/LiveTranslation";
 import { Learning } from "./pages/Learning";
 import { Alphabet } from "./pages/Alphabet";
 
+import  ExperimentDashboard  from "./components/ExperimentDashboard";
+
 const Home = () => {
   return (
     <main>
@@ -42,6 +44,11 @@ function App() {
         <Route
           path="/learn/alphabet"
           element={<Alphabet />}
+        />
+
+        <Route
+          path="/experiment"
+          element={<ExperimentDashboard />}
         />
 
       </Routes>
